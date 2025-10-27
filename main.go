@@ -29,4 +29,3 @@ func tacos(){}
 func ColorHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>Colors</h1><style>*{background-color: #006400;}</style>")
 }
-
